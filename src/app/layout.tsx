@@ -3,7 +3,7 @@ import { Geist } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
-const geist = Geist({ subsets: ["latin"] });
+const geist = Geist({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
     title: "Sohel Rana — Headless WordPress Developer",
@@ -18,6 +18,14 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
+            <head>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link
+                    rel="preconnect"
+                    href="https://fonts.gstatic.com"
+                    crossOrigin="anonymous"
+                />
+            </head>
             <body className={geist.className} suppressHydrationWarning>
                 <header className="border-b border-slate-200 px-8 py-4 flex justify-between items-center sticky top-0 bg-white z-50">
                     <Link href="/" className="font-bold text-xl text-slate-900">
