@@ -31,7 +31,7 @@ export default function RootLayout({
                     <Link href="/" className="font-bold text-xl text-slate-900">
                         Sohel<span className="text-blue-500">.</span>dev
                     </Link>
-                    <nav className="flex gap-6 text-sm font-medium text-slate-600">
+                    <nav className="flex items-center gap-6 text-sm font-medium text-slate-600">
                         <Link
                             href="/blog"
                             className="hover:text-blue-500 transition"
