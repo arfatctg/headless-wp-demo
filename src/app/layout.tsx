@@ -33,6 +33,12 @@ export default function RootLayout({
                     </Link>
                     <nav className="flex items-center gap-6 text-sm font-medium text-slate-600">
                         <Link
+                            href="/case-study"
+                            className="hover:text-blue-500 transition"
+                        >
+                            Case Study
+                        </Link>
+                        <Link
                             href="/blog"
                             className="hover:text-blue-500 transition"
                         >
