@@ -29,7 +29,7 @@ export default function RootLayout({
             <body className={geist.className} suppressHydrationWarning>
                 <header className="border-b border-slate-200 px-8 py-4 flex justify-between items-center sticky top-0 bg-white z-50">
                     <Link href="/" className="font-bold text-xl text-slate-900">
-                        Sohel<span className="text-blue-500">.</span>dev
+                        Sohel <span className="text-blue-500">Rana</span>
                     </Link>
                     <nav className="flex items-center gap-6 text-sm font-medium text-slate-600">
                         <Link
@@ -65,10 +65,7 @@ export default function RootLayout({
                     <p className="mb-1 text-white font-semibold">
                         Sohel Rana — Full-Stack & Headless WordPress Developer
                     </p>
-                    <p>
-                        Serving clients across the UK and Europe · Based in
-                        Bangladesh
-                    </p>
+                    <p>Serving clients across the UK and Europe</p>
                     <p className="mt-4">
                         © {new Date().getFullYear()} · Built with Next.js +
                         Headless WordPress
